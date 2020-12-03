@@ -4,9 +4,11 @@
       <p class="card-header-title">
         {{data.Country}}
       </p>
+      <img class="image mr-3" :src="'https://www.countryflags.io/'+ data.CountryCode +'/flat/64.png'">
     </header>
     <div class="card-content">
       <ul>
+        <li><b>Active Cases:</b> {{data.TotalConfirmed - data.TotalDeaths - data.TotalRecovered}}</li>
         <li><b>New Confirmed:</b> {{data.NewConfirmed}}</li>
         <li><b>Total Confirmed:</b> {{data.TotalConfirmed}}</li>
         <li><b>New Deaths:</b> {{data.NewDeaths}}</li>
