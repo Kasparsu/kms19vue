@@ -10,12 +10,14 @@
 import Tabs from "./components/Tabs";
 import ModalExample from "./components/ModalExample";
 import ButtonExample from "./components/ButtonExample";
+import ApiExample from "./components/ApiExample";
+import CoronaExample from "./components/CoronaExample";
 export default {
   name: "Example",
-  components: {ButtonExample, ModalExample, Tabs},
+  components: {CoronaExample, ApiExample, ButtonExample, ModalExample, Tabs},
   data() {
     return {
-      menuTitles: ['Modal', 'Button'],
+      menuTitles: ['Modal', 'Button', 'Api', 'Corona'],
       selectedExample: 'ModalExample'
     }
   },
