@@ -36,7 +36,7 @@ export default {
       global: null,
       countries: [],
       search: '',
-      sort: {field: 'Country', order: 'desc', label: 'Name desc'},
+      sort: {field: 'Country', order: 'asc', label: 'Name desc'},
       sortOptions: [
         {field: 'Country', order: 'desc', label: 'Name desc'},
         {field: 'Country', order: 'asc', label: 'Name asc'},
