@@ -13,12 +13,13 @@ import ButtonExample from "./components/ButtonExample";
 import ApiExample from "./components/ApiExample";
 import CoronaExample from "./components/CoronaExample";
 import MapExample from "./components/MapExample";
+import ChatExample from "./components/ChatExample";
 export default {
   name: "Example",
-  components: {MapExample, CoronaExample, ApiExample, ButtonExample, ModalExample, Tabs},
+  components: {ChatExample, MapExample, CoronaExample, ApiExample, ButtonExample, ModalExample, Tabs},
   data() {
     return {
-      menuTitles: ['Modal', 'Button', 'Api', 'Corona', 'Map'],
+      menuTitles: ['Modal', 'Button', 'Api', 'Corona', 'Map', 'Chat'],
       selectedExample: 'ModalExample'
     }
   },
