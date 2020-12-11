@@ -22,7 +22,7 @@ name: "ChatExample",
 
     this.socket.addEventListener('message', event => {
       console.log('Recieved:' + event.data);
-
+      this.messages.push(event.data);
     })
   },
   data() {
